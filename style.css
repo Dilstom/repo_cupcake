@@ -131,6 +131,12 @@ section .section-title {
 #footer {
   background: #2cc1c0 !important;
 }
+
+#footer img {
+  max-width: 50%;
+  margin-bottom: 25px;
+}
+
 #footer h5 {
   padding-left: 10px;
   border-left: 3px solid #eeeeee;
