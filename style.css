@@ -36,7 +36,9 @@
 .navbar-light .navbar-nav .show > .nav-link {
   font-weight: bold !important;
 }
-
+.homeCardsRow.row {
+  margin-right: 0;
+}
 .cards {
   padding: 25px;
   margin: 50px;
