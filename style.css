@@ -19,8 +19,16 @@
 .navbar-color {
   background-color: #2cc1c0;
 }
-.navbar-color .navbar-nav a {
-  color: white;
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  font-weight: bold !important;
 }
 
 .cards {
@@ -35,6 +43,10 @@
   margin: 15px;
 }
 
+.cards .card {
+  border: none;
+}
+
 .card img {
   height: 350px;
   width: 100%;
@@ -44,6 +56,64 @@
   background-color: rgb(254, 112, 149);
   color: white;
   text-align: center;
+}
+
+.card-body a {
+  color: white;
+}
+.card-body a:hover {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #3b0c14;
+  padding: 2%;
+  font-family: "Courgette", cursive;
+}
+
+.body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.body img {
+  width: 70%;
+  margin: 75px;
+  /* max-height: 500px; */
+}
+
+.body .recipe {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.body .recipe ul {
+  line-height: 1.7;
+}
+.body .recipe ol {
+  line-height: 1.7;
+}
+
+.body ul {
+  list-style: none;
+}
+
+.body ul li::before {
+  content: "\2022";
+  color: #de8ba4;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.body .recipe .container {
+  border: gray 1px block;
+}
+
+.body .recipe {
+  margin-bottom: 50px;
 }
 
 /* Footer */
@@ -111,6 +181,10 @@ section .section-title {
 }
 #footer ul.quick-links li:hover a i {
   font-weight: 700;
+}
+
+#footer {
+  display: flex;
 }
 
 @media (max-width: 767px) {
