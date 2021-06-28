@@ -1,3 +1,10 @@
+.wrapper {
+  max-width: 1300px;
+}
+.wrapper .cardRecipe {
+  margin: 0 auto;
+}
+
 .logo {
   display: flex;
   justify-content: center;
@@ -5,9 +12,10 @@
 }
 
 .logo img {
-  width: 15%;
+  width: 117px;
   /* margin-left: 45%; */
   margin-bottom: 1rem;
+  height: auto;
 }
 .logo p {
   font-family: "Great Vibes", cursive;
@@ -48,17 +56,24 @@
 }
 
 .cards {
-  margin: 15px;
+  /* margin: 15px; */
 }
 
 .cards .card {
   border: none;
 }
+.homeCardsRow .card {
+  margin-bottom: 25px;
+}
+.card {
+  min-width: 300px;
+  max-width: 300px;
+}
 
-.card img {
+/* .card img {
   height: 350px;
   width: 100%;
-}
+} */
 
 .card-body {
   background-color: rgb(254, 112, 149);
