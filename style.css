@@ -1,7 +1,7 @@
 .wrapper {
   max-width: 1300px;
 }
-.wrapper .cardRecipe {
+.wrapper.cardRecipe {
   margin: 0 auto;
 }
 
